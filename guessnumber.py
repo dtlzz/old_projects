@@ -23,7 +23,7 @@ while 0 in range(1):
     def main():
         while True:
             print("Starting program")
-            p = subprocess.Popen(['python', 'py.py'])
+            p = subprocess.Popen(['python', 'guessnumber.py'])
             p.wait()
             print("Program exited")
             time.sleep(5)
